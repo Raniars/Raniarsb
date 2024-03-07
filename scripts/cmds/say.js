@@ -33,7 +33,9 @@ module.exports = {
 					
 			} catch (e) {
         console.log(e)
-        message.reply(`Bonjour [{Username}] , je suis 🥺Iaro Sanda🥺`) }
+        message.reply(`💬 | [{userName}🏅] \n⊰᯽⊱┈──╌❊\n Bienvenue à tous, entrez comme des amis et laissez ce lieu vous apporter chaleur et réconfort❤️👌🏾──[❤️‍🔥]\n◈MON PREFIX──[@](𝘴𝘴𝘵𝘮)\n⊰᯽⊱┈──╌❊\n𝙴𝚗𝚓𝚘𝚢 𝚢𝚘𝚞𝚛 𝚜𝚝𝚊𝚢 𝙷𝚎𝚛𝚎 【{boxName}】🌸`
+		}
+	}, 
 
 	}
 };
