@@ -21,9 +21,9 @@ const fonts = {
 const Prefixes = [
   'Iaro',
   'ai',
-  'mitama',
+  'iaro',
   'ask',
-  'Iaro Sanda', 
+  'IaroSanda', 
 ];
 
 module.exports = {
