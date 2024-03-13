@@ -28,7 +28,7 @@ const Prefixes = [
 
 module.exports = {
   config: {
-    name: "IaroSanda",
+    name: "ask",
     version: 1.0,
     author: "OtinXSandip | Aesther",
     longDescription: "AI",
