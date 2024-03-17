@@ -54,7 +54,7 @@ module.exports = {
       const senderInfo = await api.getUserInfo([senderID]);
       const senderName = senderInfo[senderID].name;
       const response = await axios.get(`https://sandipbaruwal.onrender.com/gpt?prompt=${encodeURIComponent(prompt)}`);
-      const answer = `💫IARO SANDA💫:\n──────────── \n${response.data.answer}😊`;
+      const answer = `👑𝙄𝘼𝙍𝙊 𝙎𝘼𝙉𝘿𝘼👑 :\n༺◍◎◍◒⬤⬤❂◑◒◓◍༻ \n${response.data.answer}😊`;
 
       //apply const font to each letter in the answer
       let formattedAnswer = "";
