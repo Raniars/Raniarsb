@@ -6,9 +6,9 @@ const fonts = {
 
         a: "𝙖", b: "𝙗", c: "𝙘", d: "𝙙", e: "𝙚", f: "𝙛", g: "𝙜", h: "𝙝", i: "𝙞",
 
-        j: "𝙟", k: "𝙠", l: "𝙡", m: "𝙢", n: "𝙣", o: "𝙤", p: " 𝙥", q: " 𝙦", r: " 𝙧",
+        j: "𝙟", k: "𝙠", l: "𝙡", m: "𝙢", n: "𝙣", o: "𝙤", p: " 𝙥", q: " 𝙦", r: "𝙧",
 
-        s: " 𝙨", t: "𝙩", u: "𝙪", v: "𝙫", w: "𝙬", x: "𝙭", y: "𝙮", z: "𝙯",
+        s: "𝙨", t: "𝙩", u: "𝙪", v: "𝙫", w: "𝙬", x: "𝙭", y: "𝙮", z: "𝙯",
 
         A: "𝘼", B: "𝘽", C: "𝘾", D: "𝘿", E: "𝙀", F: "𝙁", G: "𝙂", H: "𝙃", I: "𝙄",
 
@@ -54,7 +54,7 @@ module.exports = {
       const senderInfo = await api.getUserInfo([senderID]);
       const senderName = senderInfo[senderID].name;
       const response = await axios.get(`https://sandipbaruwal.onrender.com/gpt?prompt=${encodeURIComponent(prompt)}`);
-      const answer = `👑𝙄𝘼𝙍𝙊 𝙎𝘼𝙉𝘿𝘼👑 :\n\n ༺◍◎◍◒⬤⬤❂◑◒◓◍༻ \n\n${response.data.answer}😊`;
+      const answer = `✫𝐼𝑎𝑟𝑜 𝑆𝑎𝑛𝑑𝑎✫ :\n\n ༺◍◎◍◒⬤⬤❂◑◒◓◍༻ \n\n${response.data.answer}🤗`;
 
       //apply const font to each letter in the answer
       let formattedAnswer = "";
