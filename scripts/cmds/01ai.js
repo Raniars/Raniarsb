@@ -47,9 +47,9 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
       if (!prompt) {
-        await message.reply("𝔸𝕕𝕞𝕚𝕟🔥━━━━━━━༺https://www.facebook.com/Iaro.Sandhttps://www.facebook.com/Iaro.Sanda༻━━━━━━━
+        await message.reply("𝔸𝕕𝕞𝕚𝕟:━━━━━━━༺https://www.facebook.com/Iaro.Sanda༻━━━━━━━ /n
 
-ᑕOᗰᗰᗴᑎT ᑭᑌIՏ-ᒍᗴ ᐯOᑌՏ ᗩIᗪᗴᖇ?�🤗");
+ᐯOTᖇᗴ QUESTION? 🤗");
         return;
       }
       const senderID = event.senderID;
